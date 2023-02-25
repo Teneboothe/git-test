@@ -8,7 +8,15 @@ $(function () {
         } else {
             $(".carousel").carousel("cycle");
             $("#carouselButton").children("i").removeClass("fa-play");
-            $("#carouselButton").children("i").addClass("fa-pause"); 
+            $("#carouselButton").children("i").addClass("fa-pause");
         }
+    });
+});
+$(function () {
+    $("#reserveButton").click(function () {
+        $("#reserveModal").modal("show");
+    });
+    $("#loginButton").click(function () {
+        $("#loginModal").modal("show");
     });
 });
