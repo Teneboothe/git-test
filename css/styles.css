@@ -7,7 +7,7 @@ h1, h2, h3 {
 }
 
 h2 {
-  color: orange;
+  color: #3046C5;
 }
 
 header h2 {
@@ -20,10 +20,10 @@ header h2 {
 }
 
 .jumbotron {
-  margin: 0;
-  padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
-  color: white;
+ margin: 0;
+ padding: 30px;
+ background-image:  linear-gradient(to right, #5637DD, #3046C5, #60106B); 
+ color: white;
 }
 
 .row-content {
@@ -41,7 +41,7 @@ header h2 {
 }
 
 .carousel {
-  border: solid #5637dd;
+  border: solid #5637DD;
 }
 
 #carouselButton {
@@ -50,15 +50,3 @@ header h2 {
   bottom: 0;
   z-index: 100;
 }
-
-#reserveModal .modal-header {
-  background-color: #17A2B8;
-  color: white;
-}
-
-#loginModal .modal-header {
-  background-color: #901CAD;
-  color: white;
-}
-
-/*# sourceMappingURL=styles.css.map */
